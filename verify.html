@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="en"><!-- Website Title -->
-    <title>Bloxhub Key Generation</title>
+    <title>BloxHub Key Generation</title>
 
     <!-- Styles -->
     <link href="css/glitch.css" rel="stylesheet" type="text/css">
@@ -13,6 +13,8 @@
 	<link href="css/magnific-popup.css" rel="stylesheet">
 	<link href="css/styles.css" rel="stylesheet">
  
+
+
 <div id="myRandomDiv">
 </div>
 <center>
@@ -34,7 +36,7 @@
       </div>
           <div id="aa" class="card-body">
           <h3 class="card-title"></h3>
-          <input type="text" value="k5maWCkR79jIwcp" id="myInput">
+          <p id="h3">Get Verification Key</h3>
           <ul class="list-unstyled li-space-lg">
               <li class="media">
                   
@@ -49,7 +51,9 @@
       </div>
       <div class="button-container">
           <!-- <a class="btn-solid-reg page-scroll" onclick="not_ready_yet()"><strike>INVITE</strike></a> -->
-        </script></head><body><a class="btn-solid-lg page-scroll" id="butt" href="#">Generate Key</a><a class="btn-solid-lg page-scroll" id="butts" href="#" onclick="myFunction()">Copy Text</a>			  
+        </script></head><body><a class="btn-solid-lg page-scroll" id="butt" href="#">Generate Key</a>
+ 
+
       </div> <!-- end of button-container -->
   </div>
 </center>
@@ -159,7 +163,7 @@
 
 
 
-    var randomDiv = document.getElementById("myInput");
+    var randomDiv = document.getElementById("aaa");
 
     document.getElementById("butt").addEventListener("click", function() {
           randomIndex = Math.ceil((Math.random()*randomStrings.length-1));
@@ -167,20 +171,4 @@
           randomDiv.innerHTML = newText;
     });
 </script>
-<script>
-function myFunction() {
-  /* Get the text field */
-  var copyText = document.getElementById("myInput");
-
-  /* Select the text field */
-  copyText.select();
-  copyText.setSelectionRange(0, 99999); /* For mobile devices */
-
-  /* Copy the text inside the text field */
-  document.execCommand("copy");
-
-  /* Alert the copied text */
-  alert("Copied the text: " + copyText.value);
-}
-	  </script>
 </body></html>
